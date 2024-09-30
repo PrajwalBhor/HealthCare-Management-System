@@ -35,6 +35,10 @@ function App() {
     ));
   };
 
+  const deleteServicePermanently=(id) =>{
+    setDeletedServices(deletedServices.filter(service=>service.id !==id));
+  };
+
   return (
     <Router>
       <div className="App">
@@ -72,6 +76,7 @@ function App() {
                 <Trashbin
                   deletedServices={deletedServices}
                   onRestore={restoreService}
+                  onPermanentDelete={deleteServicePermanently}
                 />
               }
             />

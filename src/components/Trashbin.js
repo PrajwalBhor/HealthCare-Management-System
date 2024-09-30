@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Trashbin = ({ deletedServices, onRestore }) => {
+const Trashbin = ({ deletedServices, onRestore, onPermanentDelete }) => {
   return (
     <div>
       <h2 className='heading'>Trashbin</h2>
@@ -12,6 +12,7 @@ const Trashbin = ({ deletedServices, onRestore }) => {
             <p>Price: ${service.price}</p>
             <div  className='buttons-edit-delete'>
             <button onClick={() => onRestore(service.id)}>Restore</button>
+            <button onClick={() => onPermanentDelete(service.id)}>Delete Permanently</button>
 
             </div>
           </li>

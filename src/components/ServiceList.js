@@ -2,14 +2,7 @@ import React from 'react';
 
 const ServiceList = ({ services }) => {
 
-  if(services && services.length === 0 ){
-    services.push({
-      id: 73883,
-      name: 'Dada giri dermatology',
-      description: 'we specialize in dermatology. Please contact us if you have any problem',
-      price: 100
-      })
-  }
+  
   return (
     <div>
       <h2 className='heading'>Service List</h2>
