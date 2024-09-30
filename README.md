@@ -27,21 +27,21 @@ Ensure you have the following installed on your system:
 
 ### Clone the Repository
 To get started, clone the repository to your local machine:
-```bash
+
 git clone https://github.com/PrajwalBhor/HealthCare-Management-System.git
 
 
 
 ### Navigate to the Project Directory
-```bash
+
 cd HealthCare-Management-System
 
 ### Install Dependencies
-```bash
+
 npm install
 
 ### Run the Application
-```bash
+
 npm start
 
 
