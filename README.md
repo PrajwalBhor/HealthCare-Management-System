@@ -34,15 +34,15 @@ git clone https://github.com/PrajwalBhor/HealthCare-Management-System.git
 
 ### Navigate to the Project Directory
 
-##cd HealthCare-Management-System
+cd HealthCare-Management-System
 
 ### Install Dependencies
 
-##npm install
+npm install
 
 ### Run the Application
 
-##npm start
+npm start
 
 
 
