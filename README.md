@@ -31,6 +31,7 @@ To get started, clone the repository to your local machine:
 git clone https://github.com/PrajwalBhor/HealthCare-Management-System.git
 
 
+
 ### Navigate to the Project Directory
 ```bash
 cd HealthCare-Management-System
